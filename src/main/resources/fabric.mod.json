@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "polyconomy",
+  "version": "${version}",
+  "name": "PolyConomy",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/polyconomy/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "com.crjakob.polyconomy.client.PolyconomyDataGenerator"
+    ],
+    "client": [
+      "com.crjakob.polyconomy.client.PolyconomyClient"
+    ],
+    "main": [
+      "com.crjakob.polyconomy.Polyconomy"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
