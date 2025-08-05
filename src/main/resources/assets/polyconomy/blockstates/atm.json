@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "polyconomy:block/atm" },
+    "facing=south": { "model": "polyconomy:block/atm", "y": 180 },
+    "facing=west":  { "model": "polyconomy:block/atm", "y": 270 },
+    "facing=east":  { "model": "polyconomy:block/atm", "y": 90 }
+  }
+}
