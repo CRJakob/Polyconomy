@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "polyconomy:polycoin"
+    },
+    {
+      "item": "polyconomy:polycoin"
+    },
+    {
+      "item": "polyconomy:polycoin"
+    },
+    {
+      "item": "polyconomy:polycoin"
+    },
+    {
+      "item": "polyconomy:polycoin"
+    }
+  ],
+  "result": {
+    "item": "minecraft:diamond",
+    "count": 1
+  }
+}
