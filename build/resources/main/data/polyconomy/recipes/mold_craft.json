@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:oak_log" },
+    { "item": "minecraft:iron_ingot" }
+  ],
+  "result": {
+    "item": "polyconomy:polycoin_mold",
+    "count": 1
+  }
+}
